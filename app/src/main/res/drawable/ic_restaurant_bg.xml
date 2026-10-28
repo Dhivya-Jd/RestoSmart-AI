@@ -1,0 +1,49 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="400dp"
+    android:height="800dp"
+    android:viewportWidth="400"
+    android:viewportHeight="800">
+
+    <!-- Warm Cream Base Canvas -->
+    <path
+        android:fillColor="#FAF7F2"
+        android:pathData="M0,0h400v800h-400z" />
+
+    <!-- Very Subtle Ambient Warm Glows -->
+    <path
+        android:fillColor="#08D4AF7A"
+        android:pathData="M-50,-50 C100,-50 200,50 200,200 C200,350 50,400 -50,300 Z" />
+
+    <path
+        android:fillColor="#062D5A27"
+        android:pathData="M450,500 C300,500 250,650 250,750 C250,850 350,900 450,850 Z" />
+
+    <!-- Subtle Decorative Dining Elements (Pendant lamps, table outlines, fine geometry) -->
+    <!-- Pendant light 1 -->
+    <path
+        android:strokeColor="#18C59B63"
+        android:strokeWidth="1.2"
+        android:fillColor="#00000000"
+        android:pathData="M80,0 L80,120" />
+    <path
+        android:fillColor="#15D4AF7A"
+        android:pathData="M65,120 C65,135 95,135 95,120 Z" />
+
+    <!-- Pendant light 2 -->
+    <path
+        android:strokeColor="#18C59B63"
+        android:strokeWidth="1.0"
+        android:fillColor="#00000000"
+        android:pathData="M320,0 L320,80" />
+    <path
+        android:fillColor="#12D4AF7A"
+        android:pathData="M308,80 C308,92 332,92 332,80 Z" />
+
+    <!-- Subtle botanical flourish in bottom left -->
+    <path
+        android:strokeColor="#102D5A27"
+        android:strokeWidth="1.2"
+        android:fillColor="#00000000"
+        android:pathData="M20,780 C40,730 60,690 90,660 M40,740 C55,735 65,720 60,710 M65,700 C80,695 90,680 85,670" />
+
+</vector>

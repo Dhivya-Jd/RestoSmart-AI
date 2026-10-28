@@ -1,0 +1,37 @@
+# Build artifacts
+*.apk
+*.aab
+*.zip
+
+# Signing keys and credentials
+*.jks
+*.keystore
+*.p12
+*.pepk
+*.pem
+debug.keystore.base64
+
+# Android/Gradle generated files
+.gradle/
+.kotlin/
+build/
+app/build/
+.build-outputs/
+app/applet/
+app/applet
+
+# Local configuration
+local.properties
+.env
+.env.*
+!.env.example
+
+# Temporary files
+test_parse.py
+test_raster.png
+
+# IDE/OS
+.idea/
+*.iml
+.DS_Store
+Thumbs.db

@@ -1,0 +1,6 @@
+{
+  "name": "Food Wise",
+  "description": "Food Wise - Smart Restaurant & Hotel Management, Inventory, Billing, Expiry Alerts & AI Assistant",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

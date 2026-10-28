@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="600" height="600" viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+    <!-- White background -->
+    <rect width="300" height="300" fill="#FFFFFF" />
+
+    <!-- Outer Circular Green Clock Ring & Arrow -->
+    <path d="M150,22 A85,85 0 0,1 235,107 A85,85 0 0,1 178,188" fill="none" stroke="#2E7D32" stroke-width="7" stroke-linecap="round" />
+    <path d="M222,30 L238,20 L235,40 Z" fill="#2E7D32" />
+
+    <path d="M150,192 A85,85 0 0,1 65,107 A85,85 0 0,1 122,26" fill="none" stroke="#2E7D32" stroke-width="7" stroke-linecap="round" />
+    <path d="M78,184 L62,194 L65,174 Z" fill="#2E7D32" />
+
+    <!-- Clock Tick Marks -->
+    <path d="M150,28 L150,34 M229,107 L223,107 M150,186 L150,180 M71,107 L77,107 M206,51 L201,56 M206,163 L201,158 M94,163 L99,158 M94,51 L99,56" fill="none" stroke="#388E3C" stroke-width="3.5" stroke-linecap="round" />
+
+    <!-- Chef Hat Silhouette -->
+    <path d="M112,118 L108,98 C94,94 94,68 110,61 C111,48 135,41 150,48 C160,41 184,48 185,61 C201,68 201,94 187,98 L183,118 Z" fill="#FFFFFF" stroke="#1B5E20" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M110,118 L185,118 C185,124 178,128 150,128 C122,128 110,124 110,118 Z" fill="#1B5E20" stroke="#1B5E20" stroke-width="5" />
+
+    <!-- Clock Gear Wheel inside Chef Hat -->
+    <circle cx="150" cy="81" r="16" fill="#FFFFFF" stroke="#1B5E20" stroke-width="4" />
+    <path d="M150,61 L150,65 M150,97 L150,101 M134,81 L130,81 M166,81 L170,81 M139,70 L136,67 M161,92 L164,95 M139,92 L136,95 M161,70 L164,67" fill="none" stroke="#1B5E20" stroke-width="3.5" stroke-linecap="round" />
+    <path d="M150,81 L143,74 M150,81 L158,81" fill="none" stroke="#1B5E20" stroke-width="3.5" stroke-linecap="round" />
+
+    <!-- Left Side Gear Wheel Detail -->
+    <circle cx="110" cy="128" r="8" fill="#FFFFFF" stroke="#1B5E20" stroke-width="3.5" />
+    <path d="M110,117 L110,120 M110,136 L110,139 M102,128 L99,128 M118,128 L121,128 M102,138 L94,146" fill="none" stroke="#1B5E20" stroke-width="3" stroke-linecap="round" />
+
+    <!-- Upward Growth Trend Arrow -->
+    <path d="M88,148 L125,134 L165,112 L222,65" fill="none" stroke="#2E7D32" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M222,65 L200,68 L216,86 Z" fill="#2E7D32" />
+
+    <!-- 3 Sprouting Leaves -->
+    <path d="M150,190 C140,168 140,140 150,130 C160,140 160,168 150,190 Z" fill="#2E7D32" />
+    <path d="M148,187 C128,178 110,163 106,148 C122,148 142,163 148,187 Z" fill="#388E3C" />
+    <path d="M152,187 C172,178 190,163 194,148 C178,148 158,163 152,187 Z" fill="#2E7D32" />
+
+    <!-- TYPOGRAPHY: FOOD WISE -->
+    <text x="48" y="250" font-family="'Arial Black', 'Helvetica Neue', sans-serif" font-weight="900" font-size="36" fill="#388E3C" letter-spacing="1">FOOD</text>
+    <text x="192" y="250" font-family="'Arial Black', 'Helvetica Neue', sans-serif" font-weight="900" font-size="36" fill="#0D3B23" letter-spacing="1">WISE</text>
+
+    <!-- SUBTITLE: SMART KITCHEN MANAGEMENT -->
+    <text x="150" y="280" font-family="'Arial', 'Helvetica', sans-serif" font-weight="bold" font-size="12" fill="#1B5E20" letter-spacing="2.5" text-anchor="middle">SMART KITCHEN MANAGEMENT</text>
+</svg>
